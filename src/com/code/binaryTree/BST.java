@@ -2,7 +2,6 @@ package com.code.binaryTree;
 
 import com.code.linked.LinkedListQueue;
 import com.code.queue.Queue;
-
 import java.util.Stack;
 
 public class BST<E extends Comparable<E>> {
