@@ -33,11 +33,17 @@ public class ArraysStack<E> implements Stack<E> {
         arrays.addLast(e);
     }
 
+    /*
+     * 出栈
+     */
     @Override
     public E pop() {
         return arrays.removeLast();
     }
-
+    
+    /**
+     * 查看栈顶值
+     */
     @Override
     public E peek() {
         return arrays.getLast();
