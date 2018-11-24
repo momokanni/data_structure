@@ -47,7 +47,7 @@ public class ArraysQueue<E> implements Queue<E> {
     }
     
     /**
-     * 获得第一个值
+     * 获得最前的值
      */
     @Override
     public E getFront() {
