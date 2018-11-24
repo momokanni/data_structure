@@ -45,7 +45,10 @@ public class ArraysQueue<E> implements Queue<E> {
     public E dequeue() {
         return queueArrays.removeFirst();
     }
-
+    
+    /**
+     * 获得第一个值
+     */
     @Override
     public E getFront() {
         return queueArrays.getFirst();
